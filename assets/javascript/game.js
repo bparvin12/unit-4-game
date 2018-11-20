@@ -54,6 +54,8 @@ $(document).ready(function () {
 
         });
 
+    };
+    // not sure if i put this if else statement in the startgame funciton
         if (currentScore == randomNum) {
             winCount++;
             $(".winCount").text(winCount);
@@ -61,7 +63,7 @@ $(document).ready(function () {
 
 
 
-    };
+    
 
 
 

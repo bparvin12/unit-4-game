@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.directions {
+    background-color:lightgray;
+    text-align: center;
+}
+
+.crystalgoal {
+    background-color: lightskyblue;
+    padding: 25px;
+}
+
+.winloss {
+    background-color: lightskyblue;
+    padding: 25px;
+}

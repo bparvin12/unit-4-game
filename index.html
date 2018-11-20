@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unit 4 Game</title>
+
+    <!-- linking fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <!-- my own css -->
@@ -14,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- jquery link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -21,13 +25,13 @@
     <div class="contianer">
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6 title">
                 <h1>Crystal Collector!</h1>
             </div>
         </div>
-<br>
+        <br>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 directions">
                 <p>You will be given a number at the start of the game</p>
                 <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
                     your total score.</p>
@@ -37,25 +41,26 @@
                 <p>Each time the game starts, the game will change the values of each crystal.</p>
             </div>
         </div>
-<br>
+        <br>
         <div class="row">
-            <div class="col-lg-3">
-                <span class="randomNum"></span>
+            <div class="col-lg-3 crystalgoal">
+                Collect This Many Crystals: <span class="randomNum"> </span>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 winloss">
                 <!-- may need to add columns to each of these rows that span 12 lengths across -->
                 <div class="row">
                     <span class="winLoss"></span>
                 </div>
                 <div class="row">
-                    <span class="winCount">Wins: </span>
+                    Wins: <span class="winCount"> </span>
                 </div>
                 <div class="row">
-                    <span class="lossCount">Losses: </span>
+                    Losses: <span class="lossCount"> </span>
                 </div>
             </div>
         </div>
-<br>
+        <br>
         <div class="row">
             <div class="col-lg-5">
                 <div class="row">
@@ -74,7 +79,7 @@
                 </div>
             </div>
         </div>
-<br>
+        <br>
         <div class="row">
             <div class="col-lg-4">
                 <h3>Total Score Is:</h3>
