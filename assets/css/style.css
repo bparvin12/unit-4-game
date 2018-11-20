@@ -15,10 +15,25 @@
 
 .crystalgoal {
     background-color: lightskyblue;
-    padding: 25px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.winloss {
+.winLossCount {
     background-color: lightskyblue;
-    padding: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.totalScoreIs {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.yourScoreIs {
+    background-color:lightgray;
+    text-align: center;
+    height: 100px;
+    padding-top: 35px;
 }
