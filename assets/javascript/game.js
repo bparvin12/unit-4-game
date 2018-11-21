@@ -29,6 +29,7 @@ $(document).ready(function () {
         // create random number gen from 19-120
         //get random number you have to add up to 
         $(".randomNum").text(randomNum);
+        $(".yourScore").text(currentScore)
 
 
         // picks a number 1-12 
@@ -75,6 +76,7 @@ $(document).ready(function () {
             numButton3 = getRandomInt(1, 12);
             numButton4 = getRandomInt(1, 12);
             currentScore = 0;
+            $(".yourScore").text(currentScore)
 
         };
 

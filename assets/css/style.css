@@ -11,13 +11,15 @@
 .directions {
     background-color:lightgray;
     text-align: center;
+    padding-top: 14px;
 }
 
 .crystalgoal {
     background-color: lightskyblue;
-    padding: 20px;
+    padding: 28px 20px 20px 20px;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .winLossCount {
@@ -29,6 +31,7 @@
 .totalScoreIs {
     background-color: lightskyblue;
     text-align: center;
+    padding-top: 8px;
 }
 
 .yourScoreIs {
@@ -36,6 +39,10 @@
     text-align: center;
     height: 100px;
     padding-top: 35px;
+}
+
+.yourScore {
+    font-size: 24px;
 }
 
 .pic {
