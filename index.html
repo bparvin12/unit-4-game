@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Unit 4 Game</title>
+
+    <!-- linking fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- my own css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- jquery link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="contianer">
+
+        <div class="row">
+            <div class="col-lg-12 title">
+                <h1>Lego Collector!</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12 directions">
+                <p>You will be given a number at the start of the game</p>
+                <p>There are four crystals below. By clicking on a lego you will add a specific amount of points to
+                    your total score.</p>
+                <p>You win the game by matching your total score to the random number; you lose the game if your total
+                    score goes above the random number.</p>
+                <p>The value of each lego is hidden from you until you click on it.</p>
+                <p>Each time the game starts, the game will change the values of each lego.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5 crystalgoal">
+                Collect This Many Legos: <span class="randomNum"> </span>
+            </div>
+            <div class="col-lg-2 blank"></div>
+            <div class="col-lg-5 winLossCount">
+                <!-- may need to add columns to each of these rows that span 12 lengths across -->
+                <div class="row">
+                    <span class="winLoss"></span>
+                </div>
+                <div class="row">
+                    Wins:<span class="winCount"></span>
+                </div>
+                <div class="row">
+                    Losses: <span class="lossCount"> </span>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img class="image1 pic" src="assets/images/lego1.jpg" alt="lego1" width="100px" height="100px">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="image2 pic" src="assets/images/lego2.jpeg" alt="lego2" width="100px" height="100px">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="image3 pic" src="assets/images/lego3.jpeg" alt="lego3" width="100px" height="100px">
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="image4 pic" src="assets/images/lego4.jpg" alt="lego4" width="100px" height="100px">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-12 totalScoreIs">
+                <h3>Total Score Is:</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 yourScoreIs">
+                <span class="yourScore"></span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- my own javascript -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

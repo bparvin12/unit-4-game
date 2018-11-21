@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.title {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.directions {
+    background-color:lightgray;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.crystalgoal {
+    background-color: lightskyblue;
+    padding: 28px 20px 20px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.winLossCount {
+    background-color: lightskyblue;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.totalScoreIs {
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.yourScoreIs {
+    background-color:lightgray;
+    text-align: center;
+    height: 100px;
+    padding-top: 35px;
+}
+
+.yourScore {
+    font-size: 24px;
+}
+
+.pic {
+    margin-left: 80px;
+}
+
+.blank {
+    background-color: lightgray;
+}
