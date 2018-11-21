@@ -37,3 +37,11 @@
     height: 100px;
     padding-top: 35px;
 }
+
+.pic {
+    margin-left: 80px;
+}
+
+.blank {
+    background-color: lightgray;
+}
